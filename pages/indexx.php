@@ -3,7 +3,7 @@ $servername = "127.0.0.1";
 $username = "root";
 $password = "";
 $dbname = "apple_store";
-$port = 3307; // ഇവിടെ പോർട്ട് 3307 എന്ന് ചേർക്കുക
+$port = 3307; 
 
 $conn = mysqli_connect($servername, $username, $password, $dbname, $port);
 
